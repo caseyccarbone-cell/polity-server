@@ -1,0 +1,11 @@
+{
+  "name": "polity-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node index.mjs",
+    "test:retrieval": "node test/retrieval.test.mjs"
+  }
+}
